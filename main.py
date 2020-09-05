@@ -91,43 +91,43 @@ credit3 = float(input("Enter your course 3 credit: "))
 
 if letter3 == "A" or letter3 == "a":
   gradepoint3 = 4.0
-  print(f"Grade point for course 2 is: {gradepoint3}")
+  print(f"Grade point for course 3 is: {gradepoint3}")
 
 elif letter3 == "A-" or letter3 == "a-":
   gradepoint3 = 3.67
-  print(f"Grade point for course 2 is: {gradepoint3}")
+  print(f"Grade point for course 3 is: {gradepoint3}")
 
 elif letter3 == "B+" or letter3 == "b+":
   gradepoint3 = 3.33
-  print(f"Grade point for course 2 is: {gradepoint3}")
+  print(f"Grade point for course 3 is: {gradepoint3}")
 
 elif letter3 == "B" or letter3 =="b":
   gradepoint3 = 3.0
-  print(f"Grade point for course 2 is: {gradepoint3}")
+  print(f"Grade point for course 3 is: {gradepoint3}")
 
 elif letter3 == "B-" or letter3 == "b-":
   gradepoint3 = 2.67
-  print(f"Grade point for course 2 is: {gradepoint3}")
+  print(f"Grade point for course 3 is: {gradepoint3}")
 
 elif letter3 == "C+" or letter3 == "c+":
   gradepoint3 = 2.33
-  print(f"Grade point for course 2 is: {gradepoint3}")
+  print(f"Grade point for course 3 is: {gradepoint3}")
 
 elif letter3 == "C" or letter3 == "c":
   gradepoint3 = 2.0
-  print(f"Grade point for course 2 is: {gradepoint3}")
+  print(f"Grade point for course 3 is: {gradepoint3}")
 
 elif letter3 == "D" or letter3 == "d":
   gradepoint3 = 1.0
-  print(f"Grade point for course 2 is: {gradepoint3}")
+  print(f"Grade point for course 3 is: {gradepoint3}")
 
 elif letter3 == "F" or letter3 == "f":
   gradepoint3 = 0.0
-  print(f"Grade point for course 2 is: {gradepoint3}")
+  print(f"Grade point for course 3 is: {gradepoint3}")
 
 else:
   gradepoint3 = 0.0
-  print(f"Grade point for course 2 is: {gradepoint3}")
+  print(f"Grade point for course 3 is: {gradepoint3}")
 
 GPA = float(gradepoint1 * credit1 + gradepoint2 * credit2 + gradepoint3 * credit3) / (credit1 + credit2 + credit3) 
 
