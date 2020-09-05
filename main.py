@@ -1,4 +1,4 @@
-# Author: Ji Woong Park jjp6315@psu.edu
+# Author: Ji Woong John Park jjp6315@psu.edu
 
 letter1 = input("Enter your course 1 letter grade: ")
 credit1 = float(input("Enter your course 1 credit: "))
