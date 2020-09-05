@@ -18,7 +18,6 @@ elif letter1 == "B" or "b":
   gradepoint1 = 3.0
   print(f"Grade point for course 1 is: {gradepoint1}")
 
-
 elif letter1 == "B-" or "b-":
   gradepoint1 = 2.67
   print(f"Grade point for course 1 is: {gradepoint1}")
@@ -53,7 +52,6 @@ if letter2 == "A" or "a":
 elif letter2 == "A-" or "a-":
   gradepoint2 = 3.67
   print(f"Grade point for course 2 is: {gradepoint2}")
-
 
 elif letter2 == "B+" or "b+":
   gradepoint2 = 3.33
@@ -97,7 +95,6 @@ if letter3 == "A" or "a":
 elif letter3 == "A-" or "a-":
   gradepoint3 = 3.67
   print(f"Grade point for course 2 is: {gradepoint3}")
-
 
 elif letter3 == "B+" or "b+":
   gradepoint3 = 3.33
